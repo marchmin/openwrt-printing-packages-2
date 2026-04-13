@@ -9,7 +9,7 @@ PKG_VERSION:=1.28.17
 PKG_RELEASE:=5
 
 PKG_SOURCE:=cups-filters-$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=https://www.openprinting.org/download/cups-filters/
+PKG_SOURCE_URL:=https://github.com/OpenPrinting/cups-filters/releases/download/$(PKG_VERSION)/PKG_SOURCE
 PKG_MD5SUM:=74741eb5ba32331676f88be468259d1f
 PKG_BUILD_DIR:=$(BUILD_DIR)/cups-filters-$(PKG_VERSION)
 
